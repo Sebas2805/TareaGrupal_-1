@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    
+    <head th:replace="~{layout/plantilla :: head}"></head>
     <body>
-        <div>Prueba 123</div>
+        <header th:replace="~{layout/plantilla :: header}"></header>
+        
+        <!--CONTENIDO-->
+        <div>
+            <img src="images/arbol.jpg" class="img-fluid" alt="arbol"/>
+        </div>
+        <br>
+        <p><h3 class="text-center">Nuestros Servicios:</h3></p>
+        <hr>
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 border rounded">
+                    <h5 class="text-center">Vivero</h5>
+                    <img src="images/vivero.jpg" class="img-fluid" alt="vivero"/>
+                </div>
+                <div class="col-md-3 offset-1 border rounded">
+                    <h5 class="text-center">Ventas</h5>
+                    <img src="images/vivero2.jpg" class="img-fluid" alt="vivero" style="padding-bottom: 10px"/>
+                </div>
+                <div class="col-md-3 offset-1 border rounded">
+                    <h5 class="text-center">Decoración</h5>
+                    <img src="images/vivero3.jpg" class="img-fluid" alt="vivero" style="padding-bottom: 10px"/>
+                </div>
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <footer th:replace="~{layout/plantilla :: footer}"></footer>
     </body>
 </html>
