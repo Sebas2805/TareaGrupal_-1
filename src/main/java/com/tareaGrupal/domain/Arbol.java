@@ -15,7 +15,7 @@ public class Arbol implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_arbol")
-    private Long idCategoria;
+    private Long idArbol;
     @Column(name ="nombre_comun")
     private String nombreComun;
     @Column(name ="tipo_flor")
