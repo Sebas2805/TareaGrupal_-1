@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tareaGrupal</groupId>
-    <artifactId>tareaGrupal</artifactId>
+    <artifactId>practica01</artifactId>
     <version>1</version>
-    <name>tareaGrupal</name>
+    <name>practica01</name>
     <description>Tarea Grupal #1</description>
     <url/>
     <licenses>
