@@ -10,9 +10,9 @@ public interface FirebaseStorageService {
 
     final String BucketName = "techshop-92cb9.firebasestorage.app";
 
-    final String rutaSuperiorStorage = "techshop/bcorella60874";
+    final String rutaSuperiorStorage = "techshop/grupo5";
 
     final String rutaJsonFile = "firebase";
 
-    final String archivoJsonFile = "techshop-92cb9-firebase-adminsdk-fbsvc-c71fc9c700.json";
+    final String archivoJsonFile = "techshop-92cb9-firebase-adminsdk-fbsvc-68009f0cd6.json";
 }
